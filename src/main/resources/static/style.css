@@ -1,0 +1,28 @@
+.converter {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(5, 1fr);
+    height: 100vh;
+    background-color: lightgray;
+}
+
+.fields > textarea,
+.output > textarea {
+    height: 100%;
+    width: 100%;
+}
+
+.fields,
+.output{
+    grid-column: span 2;
+}
+
+.submitGroup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.submitGroup * {
+    width: 100%;
+}
